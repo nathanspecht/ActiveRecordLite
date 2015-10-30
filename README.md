@@ -13,7 +13,7 @@ core functionality.
 - `SQLObject#has_many(name, options)` is the inverse of `#belongs_to`; defines a method, `name` that returns an array of SQLObjects with appropriate `#model_name`s and `:primary_key` values
 - `SQLObject#has_one_through(name, through_name, source_name)` defines a relationship between two SQLObjects through two `#belongs_to` relationships. Defines a method, `name`, that returns a SQLObject whose `#model_name` corresponds to the `source_name`
 
-## To do:
+## To Do
 - [ ] Write `has_many_through`
 - [ ] Write `includes` to prefetch data
 - [ ] Write `joins`
