@@ -1,6 +1,6 @@
 # ActiveRecordLite
-Active Record Lite (ARL) is an object-relational mapping system inspired by
-Active Record. ARL uses Ruby's metaprogramming capabilities to implement its
+Active Record Lite is an object-relational mapping system inspired by
+Active Record. Uses Ruby's metaprogramming capabilities to implement its
 core functionality.
 
 ## Current Features
