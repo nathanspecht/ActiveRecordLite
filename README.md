@@ -13,11 +13,6 @@ core functionality.
 - `SQLObject#has_many(name, options)` is the inverse of `#belongs_to`; defines a method, `name` that returns an array of SQLObjects with appropriate `#model_name`s and `:primary_key` values
 - `SQLObject#has_one_through(name, through_name, source_name)` defines a relationship between two SQLObjects through two `#belongs_to` relationships. Defines a method, `name`, that returns a SQLObject whose `#model_name` corresponds to the `source_name`
 
-## To Do
-- [ ] Write `has_many_through`
-- [ ] Write `includes` to prefetch data
-- [ ] Write `joins`
-
 ## Using ActiveRecordLite
 - Add this repo to your project
 - Require `'active_record_lite'`
@@ -61,3 +56,8 @@ Tree.where(name: "Dawn Redwood") # => [#<Tree:0x007ffc642ec080 @attributes={:id=
 Tree.where(name: "Dawn Redwood").first.family # => #<Family:0x007ffc641ff140 @attributes={:id=>1, :name=>"Cypress", :type_id=>1}>
 Tree.where(name: "Dawn Redwood").first.type # => #<Type:0x007ffc64088fa0 @attributes={:id=>1, :name=>"Confier"}>
 ```
+
+## To Do
+- [ ] Write `has_many_through`
+- [ ] Write `includes` to prefetch data
+- [ ] Write `joins`
