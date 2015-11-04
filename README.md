@@ -1,6 +1,6 @@
 # ActiveRecordLite
-Active Record Lite is an object-relational mapping system inspired by
-Active Record. Uses Ruby's metaprogramming capabilities to implement its
+ActiveRecordLite is an object-relational mapping system inspired by
+ActiveRecord. Uses Ruby's metaprogramming capabilities to implement its
 core functionality.
 
 ## Current Features
